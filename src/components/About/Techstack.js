@@ -1,68 +1,69 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { CgCPlusPlus } from "react-icons/cg";
-import {
-  DiJavascript1,
-  DiReact,
-  DiNodejs,
-  DiMongodb,
-  DiPython,
-  DiGit,
-  DiJava,
-} from "react-icons/di";
-import {
-  SiRedis,
-  SiFirebase,
-  SiNextdotjs,
-  SiSolidity,
-  SiPostgresql,
-} from "react-icons/si";
-import { TbBrandGolang } from "react-icons/tb";
+import { DiJava, DiJavascript1, DiNodejs, DiReact, DiMongodb, DiGit } from "react-icons/di";
+import { SiFlutter, SiExpress, SiSocketdotio, SiHtml5, SiCss3, SiPostman, SiVisualstudiocode, SiAndroidstudio, SiAmazonaws, SiGithub } from "react-icons/si";
+import { FaDatabase, FaProjectDiagram } from "react-icons/fa"; // for SQL & OOP
+import { MdDeveloperMode } from "react-icons/md"; // for Problem Solving / Dev Practices
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
+        <DiJava />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <TbBrandGolang />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
+        <SiFlutter />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiReact />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiSolidity />
+        <DiNodejs />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiExpress />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiSocketdotio />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiHtml5 />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiCss3 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiMongodb />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiNextdotjs />
+        <FaDatabase />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiGit />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiFirebase />
+        <SiGithub />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiRedis />
+        <SiPostman />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiPostgresql />
+        <SiVisualstudiocode />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
+        <SiAndroidstudio />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
+        <SiAmazonaws />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <MdDeveloperMode />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <FaProjectDiagram />
       </Col>
     </Row>
   );
