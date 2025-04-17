@@ -8,33 +8,38 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Sumit Satre </span>
-            from <span className="purple"> Bhubaneswar, India.</span>
+            Hi Everyone, I am <span className="purple">Sumit Vitthal Satre</span> from{" "}
+            <span className="purple">Pune, India.</span>
             <br />
-            I am currently employed as a software developer at Juspay.
+            I’m currently pursuing a Bachelor of Engineering in Information Technology at{" "}
+            <b className="purple">SKNCOE</b> and have a CGPA of 8.50.
             <br />
-            I have completed Integrated MSc (IMSc) in Maths and Computing at BIT
-            Mesra.
+            I’ve gained hands-on experience as a Full Stack Flutter Developer at{" "}
+            <b className="purple">Kartavya Technology</b>, and previously interned at{" "}
+            <b className="purple">Kutumb Aspiration</b> and <b className="purple">Kirabiz Technologies</b>.
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            I enjoy working across the stack with technologies like{" "}
+            <b className="purple">Flutter, Node.js, Express.js, React.js, and MongoDB</b>.
+            I’m also actively sharpening my problem-solving skills with over{" "}
+            <b className="purple">400+ DSA problems</b> solved on platforms like LeetCode and GeeksforGeeks.
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <ImPointRight /> Building Mobile & Web Applications
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs
+              <ImPointRight /> Solving DSA Challenges
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              <ImPointRight /> Exploring New Tech & Tools
             </li>
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
+            "Code with purpose, build with passion."{" "}
           </p>
-          <footer className="blockquote-footer">Sumit</footer>
+          <footer className="blockquote-footer">Sumit Satre</footer>
         </blockquote>
       </Card.Body>
     </Card>

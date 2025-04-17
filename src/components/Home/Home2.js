@@ -19,39 +19,34 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+              I'm passionate about crafting impactful software solutions and continuously sharpening my skills in both frontend and backend development.
               <br />
-              <br />I am fluent in classics like
+              <br />I'm fluent in
               <i>
-                <b className="purple"> C++, Javascript and Go. </b>
+                <b className="purple"> Java and JavaScript</b>
               </i>
-              <br />
-              <br />
-              My field of Interest's are building new &nbsp;
+              , and I specialize in building
               <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Blockchain.
-                </b>
+                <b className="purple"> full-stack mobile and web applications {" "}</b>
               </i>
+              using technologies like Flutter, Node.js, and React.js.
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Next.js</b>
-              </i>
+              My areas of interest include developing scalable products, working with
+              <b className="purple"> modern web technologies</b>, and building
+              <b className="purple"> Android applications</b> using Flutter.
+              <br />
+              <br />
+              I have hands-on experience with
+              <b className="purple"> Express.js, MongoDB, SQL, REST APIs</b>, and version control with Git & GitHub.
+              <br />
+              <br />
+              I love solving DSA problems and have solved over 400+ problems across
+              <b className="purple"> LeetCode and GeeksforGeeks</b>. I'm also a proud co-leader at the
+              <b className="purple"> Google Developer Student Club (GDSC), SKNCOE</b>.
             </p>
           </Col>
+
           <Col md={4} className="myAvtar">
             <Tilt>
               <img src={myImg} className="img-fluid" alt="avatar" />
